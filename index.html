@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Awesome site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body,
+        html {
+            height: 100%;
+            background-color: pink
+        }
+
+        .parallax {
+            background-image: url('backgrounds/file.gif');
+
+            height: 75%;
+
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        @keyframes colors {
+            0% {
+                color: rosybrown;
+            }
+
+            25% {
+                color: hotpink;
+            }
+
+            50% {
+                color: lightblue;
+            }
+
+            75% {
+                color: cornflowerblue;
+            }
+        }
+
+        .butt {
+            color: rosybrown;
+            animation-name: colors;
+            animation-iteration-count: infinite;
+            animation-duration: 5s;
+        }
+    </style>
+</head>
+
+<body>
+    <nav style="background-color: indigo; height: 2rem; text-align: center; padding: 4rem; font-size: 2rem; color: lightsteelblue; font-family:sans-serif">Some important info</nav>
+
+    <div class="parallax"></div>
+
+    <div style="height:20rem;background-color:darkslateblue;font-size:36px;margin-top: 0px;">
+        <pre style="margin-top: 0;margin-bottom: 0; font-size: 1.5rem; color: lightskyblue">
+    C'est le malaise du moment
+    L'épidémie qui s'étend
+    La fête est finie, on descend
+    Les pensées qui glacent la raison
+    Paupières baissées, visages gris
+    Surgissent les fantômes de notre lit
+    On ouvre le loquet de la grille
+    Du taudis qu'on appelle maison</pre>
+    </div>
+
+    <div class="parallax"></div>
+    <div style="background-color:black;font-size:36px;margin-top: 0px; margin-bottom: 10px;">
+        <pre style="margin-top: 0;margin-bottom: 0; font-size: 1.5rem;" class="butt">
+
+    Anya & Ksusha
+    </pre>
+    </div>
+</body></html>
